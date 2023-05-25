@@ -1,47 +1,51 @@
+Project: Video Game Sales Analysis
+May 2023
+Project 1 Group 1
+
+Project Members:
+Raj Agrawal
+Van Eisele
+John Banowsky
+
 Data: Sales Of Video Games
-Analyze sales data from more than 11,000 games.
+Analyze sales data from more than 11,000 games from 1980 to 2020.
 https://www.kaggle.com/datasets/arslanali4343/sales-of-video-games
 
-Our approach to solve below - 
+Project Goal: Identify what makes profitable games.
+
+Project Questions:
 Are there any regions that help dictate successful game sales?
 Does genre have any impact on sales?
 Do certain publishers do better in video game sales?
 Are there any differences in gaming platforms sales?
 
-After performing 
-- overall Video Games Units Globally sold by year, and in-compare with Globally v/s North America. 
-- A detail regression analysis
-- Outlier Exploration for 2010s
-- Genre by Platform
-- with various detailed analysis - our conclusion as follows - 
+Analysis Summary:
+Data cleaning - cleaned headers, included Platform Company and Decade Columns, drop null years and post 2015 years. 
+Used categorical graphs to identify leading platforms and genres by overall, decade and platform company.
+Used correlations and regressions to analyze the relationship between North American sales vs other regions.
+Calculated outliers by genre for 2010s. 
 
-
-Results
-Games bundled with console sales outperform single sales.
-Long running franchises and series have a built up following and maintain repeat buyers.
+Analysis Results:
+Sales of games bundled with consoles or hardware outperform single game sales.
+Long running franchises and series have a built up following and maintain repeat buyers with sustained high value sales.
 New unique games with special novelties also are a good way to break into the market.
+Genre comparisons show that shooters have a higher probability of success compared to other genres in North America.
+Role-Playing games are successful in most regions.
 
+Predictions:
+A game needs to be successful in North America to be successful globally.
+The novelty of an RPG/Shooter that is on multiple platforms has a high chance of success.
+Upcoming game that matches our criteria: Palworld https://www.pocketpair.jp/palworld
 
-Prediction	
-game needs to be successful in NA to be successful globally, and if you do a combination of RPG and Shooter.
-For example a Pokemon & Call of Duty mix:
- https://www.pocketpair.jp/palworld
-
-FUTURE and Data Bias
-Future searches:
-Multi-platform games
+Future Study:
+Further explore Multi-platform games
 Correlation of Handhelds and RPGS
-Combine data from long running games series like:
-FIFA
-Call of Duty
-Halo
-Madden
-Pokemon
-Mobile games
+Influence of modern gaming post 2015
+Combine data from long running games series [FIFA, Call of Duty, Halo, Madden, Pokemon, Mobile games]
 
 Data Bias:
 Selection bias (data doesn’t include all games)
 Availability Bias (Date after 2015 is not available)
-Streaming and Downloads substituting Physical Units.
-Emergence of Mobile Games in late 2010s
+Streaming and Downloads in recent times have substituted physical units.
+Emergence of new video game technology: Mobile Games in late 2010s
  
